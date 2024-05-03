@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -61,6 +62,19 @@ namespace MyPhotoshop
         private bool IsValidProperty(double value)
         {
             return value >= 0 && value <= 1;
+        }
+
+        public static Pixel operator * (Pixel pixel, double number)
+        {
+            return new Pixel(
+                   Pixel.Trim(pixel.R * number),
+                   Pixel.Trim(pixel.G * number),
+                   Pixel.Trim(pixel.B * number));
+        }
+
+        public static Pixel operator *(double number, Pixel pixel)
+        {
+            return pixel * number;
         }
     }
 }
