@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace MyPhotoshop
 {
-    public class Pixel
+    public struct Pixel
     {
+        public Pixel(double r, double g, double b) : this()
+        {
+            R = r;
+            G = g;
+            B = b;
+        }
+
         private double _r;
         private double _g;
         private double _b;
@@ -27,7 +34,7 @@ namespace MyPhotoshop
             get => _b; 
             set => _b = SetProperty(value);
         }
-
+        
         public static double Trim(double value)
         {
             if (value > 1)
@@ -55,6 +62,5 @@ namespace MyPhotoshop
         {
             return value >= 0 && value <= 1;
         }
-
     }
 }

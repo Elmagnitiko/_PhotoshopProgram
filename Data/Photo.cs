@@ -13,6 +13,7 @@ namespace MyPhotoshop
 		public Pixel this[int x, int y]
 		{
 			get => Data[x, y];
+			set => Data[x, y] = value;
 		}
 
 		public Photo(int width, int heigh)
@@ -20,14 +21,6 @@ namespace MyPhotoshop
             Width = width;
 			Height = heigh;
 			Data = new Pixel[Width, Height];
-
-			for (int x = 0; x < width; x++)
-			{
-				for (int y = 0; y < heigh; y++)
-				{
-					Data[x, y] = new Pixel();
-				}
-			}
         }
 	}
 }
