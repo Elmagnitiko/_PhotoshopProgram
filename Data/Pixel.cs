@@ -28,6 +28,19 @@ namespace MyPhotoshop
             set => _b = SetProperty(value);
         }
 
+        public static double Trim(double value)
+        {
+            if (value > 1)
+            {
+                return 1;
+            }
+            if (value < 0)
+            {
+                return 0;
+            }
+            return value;
+        }
+
         private double SetProperty(double value)
         {
             if (!IsValidProperty(value))
@@ -42,5 +55,6 @@ namespace MyPhotoshop
         {
             return value >= 0 && value <= 1;
         }
+
     }
 }

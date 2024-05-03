@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Programming\\_PhotoshopProgram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|d:\\programming\\_photoshopprogram\\data\\pixel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|solutionrelative:data\\pixel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|d:\\programming\\_photoshopprogram\\filters\\lighteningfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|solutionrelative:filters\\lighteningfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|D:\\Programming\\_PhotoshopProgram\\data\\convertors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|solutionrelative:data\\convertors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|d:\\programming\\_photoshopprogram\\filters\\lighteningfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|solutionrelative:filters\\lighteningfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|D:\\Programming\\_PhotoshopProgram\\data\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|solutionrelative:data\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|d:\\programming\\_photoshopprogram\\data\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|solutionrelative:data\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|D:\\Programming\\_PhotoshopProgram\\data\\pixel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|solutionrelative:data\\pixel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1E278156-A549-4E5D-B524-FBF3C53E7021}|Photoshop.csproj|D:\\Programming\\_PhotoshopProgram\\filters\\ifilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,39 +42,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Pixel.cs",
               "DocumentMoniker": "D:\\Programming\\_PhotoshopProgram\\Data\\Pixel.cs",
               "RelativeDocumentMoniker": "Data\\Pixel.cs",
               "ToolTip": "D:\\Programming\\_PhotoshopProgram\\Data\\Pixel.cs",
               "RelativeToolTip": "Data\\Pixel.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAmwBIAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T11:41:27.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T11:41:27.44Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Photo.cs",
               "DocumentMoniker": "D:\\Programming\\_PhotoshopProgram\\Data\\Photo.cs",
               "RelativeDocumentMoniker": "Data\\Photo.cs",
               "ToolTip": "D:\\Programming\\_PhotoshopProgram\\Data\\Photo.cs",
               "RelativeToolTip": "Data\\Photo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T11:34:03.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T11:34:03.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LighteningFilter.cs",
               "DocumentMoniker": "D:\\Programming\\_PhotoshopProgram\\Filters\\LighteningFilter.cs",
               "RelativeDocumentMoniker": "Filters\\LighteningFilter.cs",
               "ToolTip": "D:\\Programming\\_PhotoshopProgram\\Filters\\LighteningFilter.cs",
               "RelativeToolTip": "Filters\\LighteningFilter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T11:20:33.565Z",
               "EditorCaption": ""
@@ -111,10 +109,9 @@
               "RelativeDocumentMoniker": "Data\\Convertors.cs",
               "ToolTip": "D:\\Programming\\_PhotoshopProgram\\Data\\Convertors.cs",
               "RelativeToolTip": "Data\\Convertors.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-03T10:21:34.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-03T10:21:34.919Z"
             }
           ]
         }
