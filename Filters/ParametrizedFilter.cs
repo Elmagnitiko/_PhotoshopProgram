@@ -8,9 +8,9 @@ namespace MyPhotoshop
 {
     public abstract class ParametrizedFilter : IFilter
     {
-        IParameters _parameters;
+        readonly IParameters _parameters;
 
-        public ParametrizedFilter(IParameters parameters) => _parameters = parameters;
+        protected ParametrizedFilter(IParameters parameters) => _parameters = parameters;
         
 
         public ParameterInfo[] GetParameters() => _parameters.GetDesсription();
