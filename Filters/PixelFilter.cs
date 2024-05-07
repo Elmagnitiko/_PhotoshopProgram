@@ -8,9 +8,9 @@ namespace MyPhotoshop
 {
     public class PixelFilter<TParameters> : ParametrizedFilter<TParameters> where TParameters : IParameters, new()
     {
-        string name;
+        readonly string name;
 
-        Func<Pixel, TParameters, Pixel> processor;
+        readonly Func<Pixel, TParameters, Pixel> processor;
 
         public PixelFilter(string name, Func<Pixel,TParameters, Pixel> processor)
         {
