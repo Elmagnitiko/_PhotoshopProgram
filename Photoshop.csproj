@@ -48,7 +48,10 @@
     <Compile Include="Filters\ParameterInfo.cs" />
     <Compile Include="Filters\ParametrizedFilter.cs" />
     <Compile Include="Filters\PixelFilter.cs" />
-    <Compile Include="Filters\TransformFilter.cs" />
+    <Compile Include="Filters\TransformFilter\ITransformer.cs" />
+    <Compile Include="Filters\TransformFilter\RotateTransformer.cs" />
+    <Compile Include="Filters\TransformFilter\RotationParameters.cs" />
+    <Compile Include="Filters\TransformFilter\TransformFilter.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Window\MainWindow.cs">
       <SubType>Form</SubType>
