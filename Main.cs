@@ -35,6 +35,20 @@ namespace MyPhotoshop
                     new RotateTransformer()
                 ));
 
+            window.AddFilter(new TransformFilter
+                (
+                    "Rotate counterclockwise",
+                    size => new Size(size.Height, size.Width),
+                    (point, size) => new Point(point.Y, point.X))
+                );
+
+            window.AddFilter(new TransformFilter
+                (
+                    "Horizontal reflect",
+                    size => size,
+                    (point, size) => new Point(size.Width - point.X - 1, point.Y))
+                );
+
             Application.Run (window);
 		}
 	}

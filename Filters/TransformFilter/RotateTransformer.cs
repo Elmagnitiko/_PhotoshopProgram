@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyPhotoshop.Filters;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyPhotoshop.Filters
+namespace MyPhotoshop
 {
     public class RotateTransformer : ITransformer<RotationParameters>
     {

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyPhotoshop
 {
-    public interface IParameters
+    public interface IParametersHandler<TParameters>
     {
-        ParameterInfo[] GetDesсription();
-        void SetValues(double[] values);
+        ParameterInfo[] GetDescription();
+        TParameters CreateParameters(double[] values);
     }
 }

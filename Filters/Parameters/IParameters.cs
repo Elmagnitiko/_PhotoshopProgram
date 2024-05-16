@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MyPhotoshop
 {
-    public class EmptyParameters : IParameters
+    public interface IParameters
     {
-        
+
     }
 }
